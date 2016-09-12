@@ -27,10 +27,10 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\MahApps.Metro.Resources\Entypo-license.txt" target="content\Resources\Entypo-license.txt" />
-    <file src="..\MahApps.Metro.Resources\Entypo.ttf" target="content\Resources\Entypo.ttf" />
-    <file src="..\MahApps.Metro.Resources\Icons.xaml" target="content\Resources\Icons.xaml" />
-    <file src="..\MahApps.Metro.Resources\IconsNonShared.xaml" target="content\Resources\IconsNonShared.xaml" />
-    <file src="..\MahApps.Metro.Resources\WindowsIcons-license.txt" target="content\Resources\WindowsIcons-license.txt" />
+    <file src="Entypo-license.txt" target="content\Resources\Entypo-license.txt" />
+    <file src="Entypo.ttf" target="content\Resources\Entypo.ttf" />
+    <file src="Icons.xaml" target="content\Resources\Icons.xaml" />
+    <file src="IconsNonShared.xaml" target="content\Resources\IconsNonShared.xaml" />
+    <file src="WindowsIcons-license.txt" target="content\Resources\WindowsIcons-license.txt" />
   </files>
 </package>
