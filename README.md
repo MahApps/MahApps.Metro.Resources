@@ -6,6 +6,8 @@ You can get this package via [NuGet](https://www.nuget.org/packages/MahApps.Metr
 Entypo [license](./src/MahApps.Metro.Resources/Entypo-license.txt)  
 [WindowsIcons](http://modernuiicons.com) [license](./src/MahApps.Metro.Resources/WindowsIcons-license.txt)
 
+But you should really use the new [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) to get some additional awesome stylish and handmade icons for better cool looking applications.
+
 # Usage
 
 Add the `MahApps.Metro.Resources` resource dictionary to your `App.xaml` or window resource tag.
