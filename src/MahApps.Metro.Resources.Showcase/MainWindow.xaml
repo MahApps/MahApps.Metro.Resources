@@ -1,0 +1,55 @@
+﻿<controls:MetroWindow x:Class="MahApps.Metro.Resources.Showcase.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                      xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      mc:Ignorable="d"
+                      Title="MahApps.Metro.Resources"
+                      TitleCaps="False"
+                      Height="600" Width="800"
+                      BorderBrush="{DynamicResource AccentColorBrush}"
+                      BorderThickness="1"
+                      ResizeMode="CanResizeWithGrip"
+                      WindowStartupLocation="CenterScreen"
+                      WindowTransitionsEnabled="False"
+                      x:Name="MainView">
+
+    <Grid>
+        <ListBox x:Name="IconsListBox"
+                 ItemsSource="{Binding ElementName=MainView, Path=AllIcons, IsAsync=True}"
+                 HorizontalAlignment="Center"
+                 Style="{DynamicResource VirtualisedMetroListBox}">
+
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="4" IsItemsHost="True" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="160" Height="80">
+                        <DockPanel LastChildFill="True"
+                                   Background="Transparent"
+                                   ToolTip="{Binding Path=Name}">
+                            <TextBlock DockPanel.Dock="Bottom"
+                                       HorizontalAlignment="Center"
+                                       TextTrimming="CharacterEllipsis"
+                                       Text="{Binding Path=Name}" />
+                            <Rectangle Width="32" Height="32"
+                                       Margin="2"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center">
+                                <Rectangle.Fill>
+                                    <VisualBrush Stretch="Uniform" Visual="{Binding Path=Visual}" />
+                                </Rectangle.Fill>
+                            </Rectangle>
+                        </DockPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+
+</controls:MetroWindow>
