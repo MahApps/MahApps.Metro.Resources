@@ -29,3 +29,9 @@ If you added all `MahApps.Metro` resources to your `App.xaml` or window resource
     </Rectangle>
 </Button>
 ```
+
+# Showcase
+
+You can use this application [download](https://github.com/MahApps/MahApps.Metro.Resources/releases/download/v0.6.1/MahApps.Metro.Resources.Showcase.zip) if you want to show which Icons are included.
+
+![2016-09-13_15h33_53](https://cloud.githubusercontent.com/assets/658431/18475679/a696fe4a-79c7-11e6-913b-453b6249bde4.png)
