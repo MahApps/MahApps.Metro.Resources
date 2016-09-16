@@ -13,7 +13,7 @@ But you should really use the new [MahApps.Metro.IconPacks](https://github.com/M
 Add the `MahApps.Metro.Resources` resource dictionary to your `App.xaml` or window resource tag.
 
 ```xaml
-<ResourceDictionary Source="pack://application:,,,/MahApps.Metro.Resources;component/Icons.xaml" />
+<ResourceDictionary Source="pack://application:,,,/YourApplicationName;component/YourResourceFolder/Icons.xaml" />
 ```
 
 If you added all `MahApps.Metro` resources to your `App.xaml` or window resources tag then you can use the icons e.g. for a circle button like in this sample.
